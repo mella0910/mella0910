@@ -10,7 +10,7 @@ const restify = require("restify");
 const server = restify.createServer();
 
 // START LISTENING TO SERVER
-const port = 3978;
+const port = 3979;
 server.listen(port, function(){
     console.log("Listening to %s", port);
 });
