@@ -1,5 +1,7 @@
 // LOAD ENVIRONMENT VARIABLES
-require("dotenv-extended").load();
+require("dotenv-extended").config({
+    path: __dirname + '/.env'
+});
 
 // BOT MODULES / LIBRARUES
 const builder = require("botbuilder");
